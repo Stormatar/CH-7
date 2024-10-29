@@ -1,0 +1,60 @@
+/*
+Name: Ronan Norbury
+Date: 10/28/2024
+File: Extend Your Knowledge
+*/
+
+/* CSS Reset */
+body,
+header,
+main,
+footer,
+h1,
+h3,
+section,
+article {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: white;
+}
+
+/* Style rule for header */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #628c45;
+	color: #dfe7c4;
+	padding: 2%;
+	text-align: center;
+}
+
+/* Style rules for main content  */
+main {
+	background-color: #fff;
+}
+
+article {
+	column-count: 3;
+	column-gap: 3em;
+	column-rule: 2px solid #628c45;
+	margin: 1.5em;
+}
+
+aside {
+	padding: 2%;
+}
+
+.link {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+}
